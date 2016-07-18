@@ -32,6 +32,10 @@ a{
 	width:1100px;
 	margin:0 auto;
 }
+.wrap1200{
+    width:1200px;
+    margin:0 auto;
+}
 .wrap1400{
 	width:1400px;
 	margin:0 auto;
@@ -95,27 +99,152 @@ header .mainnav li a:hover,.mainnav li a.active{
     margin-top:76px;
     background:#0f51b2 url(https://img.alicdn.com/imgextra/i3/93733667/TB2wbIGoXXXXXaWXXXXXXXXXXXX_!!93733667.png) top center no-repeat;
 }
+
+/*---------------首页-----------------*/
+.ser-icon {
+    background-repeat:no-repeat;
+    background-image:url(https://img.alicdn.com/imgextra/i2/93733667/TB2cUSusVXXXXXNXXXXXXXXXXXX_!!93733667.png);
+    display:inline-block;
+    height:74px;
+    margin-top:15px;
+    width:80px;
+}
+
+.four-service{
+    background:#f2f2f2 url(https://img.alicdn.com/imgextra/i3/93733667/TB2u1tHsVXXXXb5XpXXXXXXXXXX_!!93733667.png) 80% 0% no-repeat;
+    padding-top:20px;
+}
+.four-service dl{width:242px;height:129px;background:#fff;margin-right:10px;padding:25px;}
+.four-service dl:last-child {margin:0}
+.four-service dl,.four-service dl dt{float:left;height:133px;}
+.four-service dl dd{ float:left;font-size:14px;line-height:30px;margin-left:17px;color:#666;}
+.four-service dl dd p{line-height:20px; margin-bottom:6px;}
+.four-service dl dt{ border-right: 1px solid #e2e0e0;width: 96px;}
+.four-service dl dt .title{margin-top:10px;font-size:18px; }
+.four-service dl dt .two{background-position: 0  -116px;}
+.four-service dl dt .three{background-position: 0 -227px;}
+.four-service dl dt .four{background-position: 0  -339px;}
+.radius{
+    height:78px;
+    font-size:0;
+    background:url(https://img.alicdn.com/imgextra/i1/93733667/TB2rARGsVXXXXbZXpXXXXXXXXXX_!!93733667.png) center bottom no-repeat;
+
+}
+.core-services {
+    height:640px;
+    background:url(https://img.alicdn.com/imgextra/i4/93733667/TB2ihBzsVXXXXcMXpXXXXXXXXXX_!!93733667.png) 50% 200px no-repeat;
+}
+
+.core-services dl{
+    width:360px;
+    margin-top:40px;
+    height:134px;
+}
+.core-services dl dt{
+    float:left;
+    width:103px;
+    height:110px;
+    background-image:url(https://img.alicdn.com/imgextra/i2/93733667/TB2cUSusVXXXXXNXXXXXXXXXXXX_!!93733667.png);
+    background-repeat:no-repeat;
+}
+.core-services .one{
+    background-position:0 -504px;
+}
+.core-services .two{
+    background-position:0 -647px;
+}
+.core-services .three{
+    background-position:0 -793px;
+}
+.core-services .four{
+    background-position:0 -943px;
+}
+.core-services dd{
+    font-size:12px;
+    color:#777;
+    line-height:20px;
+}
+.core-services dd p{
+    font-size:17px;
+    font-weight:bold;
+    color:#444;
+    height:26px;
+}
+
+
+.new-activities .main-title{
+    background-position: center  -1232px;
+}
+.new-activities li{
+    width:348px;
+    height:277px;
+}
+.new-activities li, .real-case li{
+
+    background-color:#f2f2f2;
+    border-radius:3px;
+    float:left;
+    position:relative;
+    margin:0 5px;
+} 
+.new-activities .content,.real-case .content{
+    width: 100%;
+    height: 30px;
+    padding: 0;
+    text-align: center;
+    border-radius: 0 0 3px 3px;
+    z-index: 2;
+    background-color: rgba(0,0,0,.5);
+    position: absolute!important;
+    bottom: 0;
+}
+.new-activities .cotegory,.real-case .cotegory{
+     margin: 0;
+    font-size: 14px;
+    line-height: 30px;
+    color:#fff;
+}
+.real-case .fr{
+    width:720px;
+    margin-right:17px;
+}
+
+.real-case li {
+    width:220px;
+    height:120px;
+    margin:0 8px 30px 10px;
+}
+.real-case .box-item li{
+    width:345px;
+    height:270px;
+    margin:0 0 30px 10px ;
+}
+
+
+
+/*------------广告服务-----------------*/
 /*ceo讲话*/
 .evaluation{
     margin-top:35px;
-    padding-left:140px;
+    padding-left:200px;
 }
 .evaluation .e-text{
-    font-size:18px;
+    font-size:15px;
     color:#555;
     float:left;
     margin-right:20px;
 }
 .evaluation .e-text .l{
-    width:45px;
+    width:35px;
     height: 26px;
     background-position: 0 2px;
     float:left;
 }
 .evaluation .e-text .r{
-    width:45px;
-    height:25px;
-    background-position: 15px -55px;
+    width: 30px;
+    height: 25px;
+    background-position: 4px -55px;
+
 }
 .evaluation .e-face{
     width:150px;
@@ -129,11 +258,11 @@ header .mainnav li a:hover,.mainnav li a.active{
     display:inline-block;
 }
 .evaluation .e-face .name{
-    font-size:18px;
+    font-size:16px;
     color:#444;
 }
 .evaluation .e-face .job{
-    font-size:14px;
+    font-size:12px;
     color:#999;
 }
 /*第一屏*/
@@ -144,7 +273,7 @@ header .mainnav li a:hover,.mainnav li a.active{
 }
 /*第二屏*/
 .confusion .main-title{
-    background-position:center -80px;
+    background-position:center -81px;
 }
 .contrast{
     width:1066px;
